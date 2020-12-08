@@ -1,5 +1,5 @@
-def position_taken?(board, placement)
-  if board[placement] == " " || board[placement] == "" || board[placement] == nil
+def position_taken?(board, input)
+  if board[input] == " " || board[input] == "" || board[input] == nil
     false 
   else
     true 
